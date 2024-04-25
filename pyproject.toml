@@ -1,0 +1,23 @@
+[project]
+name = "voxel-tree"
+version = "0.1.0"
+description = "Octree for fast voxel based inclusion checking and random sampling."
+authors = [
+    {name = "radoskov", email = "radoslav.skoviera@cvut.cz"},
+]
+dependencies = [
+    "networkx>=3.3",
+    "numpy>=1.26.4",
+    "mayavi>=4.8.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "LGPLv3"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
