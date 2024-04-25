@@ -2,7 +2,7 @@ from random import random
 
 import numpy as np
 import open3d as o3d
-from sampled_boxes import SampledAABB, SampledBBox
+from voxel_tree.sampled_boxes import SampledAABB, SampledBBox
 from scipy.spatial.transform import Rotation
 
 
