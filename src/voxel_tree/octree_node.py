@@ -2,7 +2,7 @@ from typing import Any, ClassVar, Optional, Union
 
 import numpy as np
 
-from octree.sampled_boxes import SampledBBox
+from voxel_tree.sampled_boxes import SampledBBox
 
 
 class OctreeNode:
