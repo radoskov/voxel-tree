@@ -1,8 +1,8 @@
 import numpy as np
 
-from octree.octree_node import OctreeNode
-from octree.sampled_boxes import SampledAABB, SampledBBox
-
+from voxel_tree.octree_node import OctreeNode
+from voxel_tree.sampled_boxes import SampledAABB, SampledBBox
+from typing import Optional, Union
 
 class OctreeRoot():
     RNG = np.random.default_rng(0)

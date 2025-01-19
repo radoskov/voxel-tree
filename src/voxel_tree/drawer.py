@@ -4,8 +4,8 @@ import networkx as nx
 import numpy as np
 from mayavi import mlab
 
-from octree.octree_node import OctreeNode
-from octree.octree_root import OctreeRoot
+from voxel_tree.octree_node import OctreeNode
+from voxel_tree.octree_root import OctreeRoot
 
 nx_node_type = tuple[int, int]
 
